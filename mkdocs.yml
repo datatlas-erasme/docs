@@ -7,5 +7,7 @@ theme:
   name: material
 extra:
     generator: false
-    
+plugins:
+    - search
+    - mermaid2
 docs_dir: data
