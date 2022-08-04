@@ -60,6 +60,7 @@ Un nouveau layer graphique propre à Datatlas est construit sur la base de ces d
 
 ## 🗺 Front
 
+```mermaid
 graph TD
     A[index.tsx] --> B(App.js)
     B --> C{Front}
@@ -83,6 +84,7 @@ graph TD
         J5 --> J52([ButtonDay])
         J5 --> J53([ButtonSelect])
         J5 --> J55([ButtonIcon])
+```
 
 ### Structuration des sources de donnees
 Les sources de données n'ayant pas les memes format, la back de datatlas vient s'interfacer entre l'api de la source et le front afin d'y appliquer un traitement qui soit lisible pour le front
