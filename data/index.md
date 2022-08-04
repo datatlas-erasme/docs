@@ -58,6 +58,32 @@ Un nouveau layer graphique propre à Datatlas est construit sur la base de ces d
 
 ## 🔩 Back
 
+## 🗺 Front
+
+graph TD
+    A[index.tsx] --> B(App.js)
+    B --> C{Front}
+    C --> D[Map] --> D1(KeplerGl) --> D2(Kepler reducer)
+    C --> E[Panel]
+    E --> H(AddButton)
+    E --> I(MobilePanelControl)
+    E --> J(DesktopPanelControl)
+    I --> I1([SearchBar])
+    I --> I2([ButtonSwitch])
+    I --> I3([Collapse]) --> I4([List])
+        I4 --> I41([Checkbox])
+        I4 --> I42([ButtonDay])
+        I4 --> I43([ButtonSelect])
+        I4 --> I45([ButtonIcon])
+    J --> J1([SearchBar])
+    J --> J2([ButtonDefault])
+    J --> J4([ButtonDay])
+    J --> J3([Collapse]) --> J5([List])
+        J5 --> J51([Checkbox])
+        J5 --> J52([ButtonDay])
+        J5 --> J53([ButtonSelect])
+        J5 --> J55([ButtonIcon])
+
 ### Structuration des sources de donnees
 Les sources de données n'ayant pas les memes format, la back de datatlas vient s'interfacer entre l'api de la source et le front afin d'y appliquer un traitement qui soit lisible pour le front
 
