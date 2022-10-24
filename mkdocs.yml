@@ -3,6 +3,9 @@ site_url: https://datatlas-erasme.github.io/docs/
 site_author: Erasme
 nav:
     - Home: index.md
+    - EN: EN.md
+    - FR: FR.md
+
 theme:
   name: material
 extra:
@@ -11,3 +14,5 @@ plugins:
     - search
     - mermaid2
 docs_dir: data
+markdown_extensions:
+  - attr_list
