@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Erasme" name="author"/>
+<link href="https://datatlas-erasme.github.io/docs/EN/advanced/" rel="canonical"/>
+<link href="../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.3.1, mkdocs-material-8.4.1" name="generator"/>
+<title>English Documentation - Datatlas</title>
+<link href="../../assets/stylesheets/main.69437709.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="none" data-md-color-primary="none" data-md-color-scheme="" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#english-documentation">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Datatlas" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Datatlas">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Datatlas
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              English Documentation
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Datatlas" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Datatlas">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    Datatlas
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        Home
+      </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#datatlas-presentation">
+    🌍 Datatlas presentation
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#datatlas-strucure">
+    📄 Datatlas Strucure
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#back">
+    🔩 Back
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#front">
+    🗺 Front
+  </a>
+<nav aria-label="🗺 Front" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#data-sources-structure">
+    Data sources structure
+  </a>
+<nav aria-label="Data sources structure" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#notion">
+    Notion
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wordpress">
+    Wordpress
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#geojson">
+    Geojson
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#configuration-instance">
+    Configuration instance
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deployment">
+    Deployment
+  </a>
+<nav aria-label="Deployment" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#environment-variables">
+    Environment variables
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#front_1">
+    Front
+  </a>
+<nav aria-label="Front" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#front-structure">
+    Front structure
+  </a>
+<nav aria-label="Front structure" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sidepanel">
+    Sidepanel
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#filter-panel">
+    Filter Panel
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#about-modal">
+    About Modal
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#personalized-icons">
+    Personalized icons
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="english-documentation">English Documentation</h1>
+<p><a href="EN/quickstart.md">QuickStart</a></p>
+<h2 id="datatlas-presentation">🌍 Datatlas presentation</h2>
+<p><img alt="" src="medias/datatlas-industries.png"/></p>
+<p>Datatlas aims to facilitate the display of various data sources on a map
+The tool is based on kepler.gl which facilitates the processing of data sources in geojson/json/csv and the display of large data sources in webgl</p>
+<h2 id="datatlas-strucure">📄 Datatlas Strucure</h2>
+<div class="mermaid">graph TD
+
+Backend --&gt; Frontend
+
+OpenData_API_Geojson --&gt; Backend
+
+Notion_Table --&gt; Backend
+
+Wordpress --&gt; Backend
+</div>
+<p>Datatlas is a backend capable of retrieving the following data sources:</p>
+<ul>
+<li>Notion Database (<a href="####Notion">View table notion structure</a>) </li>
+<li>Wordpress API (<a href="####Wordpress">View table structure wordpress</a>) </li>
+<li>Geojson (<a href="####Geojson">See table structure geojson</a>)</li>
+</ul>
+<p>These data are stored in a file named LayersConfiguration.json</p>
+<p>When the data sources are not formatted in geojson, the back applies a treatment of these data and formats it in a format specific to kepler.gl (the library used by the front to display the cartographic data)</p>
+<p>The front draws the data from the back and displays it with kepler.gl
+A new graphical layer specific to Datatlas is built on the basis of these data and allows to filter these same data on the map</p>
+<h2 id="back">🔩 Back</h2>
+<h2 id="front">🗺 Front</h2>
+<p>The front is based on react and using the Kepler.gl Library</p>
+<p>The components use the following structure
+[NEEDS TO BE UPDATED]</p>
+<div class="mermaid">graph TD
+    A[index.tsx] --&gt; B(App.js)
+    B --&gt; C{Front}
+    C --&gt; D[Map] --&gt; D1(KeplerGl) --&gt; D2(Kepler reducer)
+    C --&gt; E[Panel]
+    E --&gt; H(AddButton)
+    E --&gt; I(MobilePanelControl)
+    E --&gt; J(DesktopPanelControl)
+    I --&gt; I1([SearchBar])
+    I --&gt; I2([ButtonSwitch])
+    I --&gt; I3([Collapse]) --&gt; I4([List])
+        I4 --&gt; I41([Checkbox])
+        I4 --&gt; I42([ButtonDay])
+        I4 --&gt; I43([ButtonSelect])
+        I4 --&gt; I45([ButtonIcon])
+    J --&gt; J1([SearchBar])
+    J --&gt; J2([ButtonDefault])
+    J --&gt; J4([ButtonDay])
+    J --&gt; J3([Collapse]) --&gt; J5([List])
+        J5 --&gt; J51([Checkbox])
+        J5 --&gt; J52([ButtonDay])
+        J5 --&gt; J53([ButtonSelect])
+        J5 --&gt; J55([ButtonIcon])
+</div>
+<h3 id="data-sources-structure">Data sources structure</h3>
+<p>The data sources do not have the same format, the back of datatlas comes to interface between the api of the source and the front in order to apply a treatment which is readable for the front</p>
+<h4 id="notion">Notion</h4>
+<p>the back is able to draw a notion table thanks to the id of a notion table and to export it in a json readable by kepler.gl</p>
+<p>The back is able to process any notion table containing the following field types:</p>
+<ul>
+<li>date</li>
+<li>simple select</li>
+<li>multi-select</li>
+<li>short text</li>
+<li>long text</li>
+<li>email</li>
+<li>phone</li>
+<li>number</li>
+</ul>
+<p>nevertheless some type of fields are mandatory or have some function once loaded on the front</p>
+<ul>
+<li>latitude and longitude : their name must not change to allow the correct display of points on the map</li>
+<li>icon : allows the display of an icon instead of the point on the map, by default use the list of icons provided by kepler.gl <a href="https://d1a3f4spazzrp4.cloudfront.net/kepler.gl/icons/svg-icons.json">see icons list</a> , these icons can be customized <a href="###icone-personalized">see icon customization </a></li>
+<li>image : allows the display of an image in the Front Panel. This text field must be named <code>image</code> and must contain a url to an image (https://monserveur/monimage.jpg)</li>
+</ul>
+<p>Once your table is built and filled it is necessary to share it with your <a href="https://www.notion.so/my-integrations">integration notion</a> and to include your notion api key in the environment variables of the back when it is deployed <a href="####Environment-variables">See environment variables</a></p>
+<p>You will then have to add the table as a data layer in the back instance configuration file <strong>LayersConfiguration.json</strong>.</p>
+<h4 id="wordpress">Wordpress</h4>
+<p>Concerning the wordpress layers, the back will pull the data from the wordpress api and then format it to kepler.gl</p>
+<p><strong>⚠ At this time the wordpress module is not modular and only works on specific use cases</strong></p>
+<h4 id="geojson">Geojson</h4>
+<p>Concerning the geojson format, the back does not apply any formatting of the data above, it only serves as a gateway between the data source and the front end, kepler.gl on the front end is able to process this data
+Any geojson data source should be supported</p>
+<h3 id="configuration-instance">Configuration instance</h3>
+<h3 id="deployment">Deployment</h3>
+<h4 id="environment-variables">Environment variables</h4>
+<p><strong>DATATLAS_BACK_END_PORT</strong>
+<strong>NOTION_API_KEY</strong>
+<strong>BEARER_TOKEN</strong></p>
+<h2 id="front_1">Front</h2>
+<h3 id="front-structure">Front structure</h3>
+<h4 id="sidepanel">Sidepanel</h4>
+<h4 id="filter-panel">Filter Panel</h4>
+<h4 id="about-modal">About Modal</h4>
+<h3 id="personalized-icons">Personalized icons</h3>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.9c69f0bc.min.js"></script>
+<script src="https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"></script><script>mermaid.initialize({});</script></body>
+</html>
