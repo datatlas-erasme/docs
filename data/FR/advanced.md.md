@@ -1,36 +1,4 @@
-# Table of Content
-
-- [Table of Content](#table-of-content)
-- [EN](#en)
-  - [QuickStart](#quickstart)
-- [FR](#fr)
-  - [🌍 Presentation Datatlas](#-presentation-datatlas)
-  - [📄 Structuration de datatlas](#-structuration-de-datatlas)
-  - [🔩 Back](#-back)
-  - [🗺 Front](#-front)
-    - [Structuration des sources de donnees](#structuration-des-sources-de-donnees)
-      - [Notion](#notion)
-      - [Wordpress](#wordpress)
-      - [Geojson](#geojson)
-    - [Configuration instance](#configuration-instance)
-    - [Deployement](#deployement)
-      - [Variables d'environement](#variables-denvironement)
-        - [DATATLAS_BACK_END_PORT](#datatlas_back_end_port)
-        - [NOTION_API_KEY](#notion_api_key)
-        - [BEARER_TOKEN](#bearer_token)
-  - [Front](#front)
-    - [Structure du front](#structure-du-front)
-      - [Sidepanel](#sidepanel)
-      - [Filter Panel](#filter-panel)
-      - [About Modal](#about-modal)
-    - [icone personalisees](#icone-personalisees)
-
-# EN
-
-## QuickStart
-ddfgdf
-
-# FR
+# Documentation en français
 
 
 ## 🌍 Presentation Datatlas
